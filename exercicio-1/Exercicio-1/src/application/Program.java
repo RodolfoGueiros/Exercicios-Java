@@ -13,7 +13,7 @@ public class Program {
         Product product = new Product();
 
         System.out.println("Enter product data: ");
-        
+
         System.out.println("Name: ");
         product.name = sc.nextLine();
         System.out.println("Price: ");

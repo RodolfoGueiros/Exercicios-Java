@@ -12,7 +12,7 @@ public class Employee {
     }
 
     //incremento de salario
-    public void increaseSalary(double percentage){
+    public void increaseSalary(double git){
 
         grossSalary += grossSalary * percentage / 100;
     }

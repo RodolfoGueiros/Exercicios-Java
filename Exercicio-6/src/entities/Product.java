@@ -7,6 +7,9 @@ public class Product {
     public double price;
     public int quantity;
 
+
+    //metodo construtor criado para evitar ambiguidade, e o uso do this serve para diferenciar
+    //o atributo da variável local
     public Product(String name, double price, int quantity){
         this.name = name;
         this.price = price;

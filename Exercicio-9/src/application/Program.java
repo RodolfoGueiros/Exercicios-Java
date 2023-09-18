@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Program {
 
     public static void main(String[] args) {
-        //Calcula media de valores usando array
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        double[] vect = new double[n];
+        double[] vect = new double[n]; //Calcula media de valores usando array
 
         for (int i=0; i<n; i++){
             vect[i] = sc.nextDouble();
